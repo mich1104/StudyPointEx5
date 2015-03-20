@@ -36,12 +36,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem11.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem11.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem11/Problem11.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03046595" vertical-offset="0" max-vertical-offset="558">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem7.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem7/Problem7.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrencyModule.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem7/CurrencyModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5321101" vertical-offset="747" max-vertical-offset="1292">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,12 +84,12 @@
         <option value="$PROJECT_DIR$/Problem7.js" />
         <option value="$PROJECT_DIR$/Problem7-CurrencyModule.js" />
         <option value="$PROJECT_DIR$/CurrencyModule.js" />
-        <option value="$PROJECT_DIR$/Problem7/CurrencyModule.js" />
         <option value="$PROJECT_DIR$/Problem4.js" />
-        <option value="$PROJECT_DIR$/Problem7/Problem7.js" />
         <option value="$PROJECT_DIR$/Problem7/Server.js" />
         <option value="$PROJECT_DIR$/Problem8/Problem8.js" />
         <option value="$PROJECT_DIR$/Problem11/Problem11.js" />
+        <option value="$PROJECT_DIR$/Problem7/Problem7.js" />
+        <option value="$PROJECT_DIR$/Problem7/CurrencyModule.js" />
       </list>
     </option>
   </component>
@@ -226,7 +250,7 @@
       <recent name="C:\Users\Michael\WebstormProjects\StudyPointEx5\Problem1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Problem8.js">
+  <component name="RunManager" selected="Node.js.Problem7.js">
     <configuration default="false" name="CurrencyModule.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/Program Files/nodejs/node" path-to-js-file="CurrencyModule.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
@@ -303,8 +327,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Problem8.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem7.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Problem7.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Problem8.js" />
         <item index="2" class="java.lang.String" itemvalue="Node.js.Problem4.js" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.CurrencyModule.js (1)" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.CurrencyModule.js" />
@@ -524,26 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem7/Problem7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem7/CurrencyModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6303828" vertical-offset="153" max-vertical-offset="1139">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problem8/Problem8.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="578">
@@ -556,9 +560,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem11/Problem11.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03046595" vertical-offset="0" max-vertical-offset="558">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem7/Problem7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem7/CurrencyModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5321101" vertical-offset="747" max-vertical-offset="1292">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

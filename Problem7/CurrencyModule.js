@@ -9,7 +9,10 @@ currencyMap["DKK"] = 1;
 function getConverter(callback){
 
     request(url, function(error, response, xml){
+        if(error||response.statusCode != 200){
 
+            callback(error);
+        }
         if(!error && response.statusCode === 200){
 
             parseString(xml, function (err, result) {
@@ -39,12 +42,18 @@ function getConverter(callback){
                     });
                 });
                 //console.log(rates);
-                var f = function(amount, from, to){
+                var f = function(amount, from, to) {
 
                     var fromCurr = getCurrency(rates, from);
-                    var toCurr = getCurrency(rates,to);
-                    var result = amount * parseFloat(fromCurr.rate) / parseFloat(toCurr.rate);
+                    var toCurr = getCurrency(rates, to);
+                    try {
+                        var result = amount * parseFloat(fromCurr.rate) / parseFloat(toCurr.rate);
+                    } catch (err){
+
+                        return "404: Currency not found";
+                    }
                     return {amount: amount, from: fromCurr.desc, to: toCurr.desc, result: result};
+
                 }
                 callback(null, f);
             });

@@ -5,3 +5,8 @@ var currency = require("./CurrencyModule");
 currency.getConverter(function(err,convert){
     console.log(convert(100,"DKK","USD"));
 });
+
+//  Giver en error
+currency.getConverter(function(err,convert){
+    console.log(convert(100,"aaa","USD"));
+});
